@@ -4,6 +4,7 @@
       <ul class="nav">
         <li><router-link :to="{name: 'blogs'}">Blogs</router-link></li>
         <li><router-link :to="{name: 'users'}">Users</router-link></li>
+        <li><router-link :to="{name: 'books'}">Books</router-link></li> 
         <li><router-link :to="{name: 'login'}">Login</router-link></li>
       </ul>
       <div class="clearfix"></div>
@@ -16,6 +17,7 @@ export default {
   // Options API
 }
 </script>
+
 <style scoped>
     .nv-navbar {
         background-color:palegoldenrod;
